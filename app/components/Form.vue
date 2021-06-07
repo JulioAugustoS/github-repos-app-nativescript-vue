@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     save(){
-      this.$store.dispatch('loadUsers', this.user)
+      this.$store.dispatch('User/loadUsers', this.user)
       this.user = "";
     }
   }

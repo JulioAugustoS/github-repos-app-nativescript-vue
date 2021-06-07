@@ -36,13 +36,13 @@
       id: Number
     },
     computed: {
-      ...mapGetters(['getUsers', 'getRepos']),
+      ...mapGetters({ getUsers: 'User/getUsers', getRepos: 'Repos/getRepos' }),
       me() {
         return this.getUsers.filter(user => user.id === this.id)[0]
       }
     },
     created() {
-      this.$store.dispatch('loadRepos', this.me.login)
+      this.$store.dispatch('Repos/loadRepos', this.me.login)
     },
     methods: {
       open(url) {

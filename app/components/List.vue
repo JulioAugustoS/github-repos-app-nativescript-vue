@@ -18,7 +18,7 @@ import { mapGetters } from 'vuex'
 export default {
   components: { ListItem },
   computed: {
-    ...mapGetters(['getUsers'])
+    ...mapGetters({ getUsers: 'User/getUsers' })
   }
 }
 </script>

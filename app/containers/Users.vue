@@ -15,7 +15,12 @@ import Form from "@/components/Form"
 import List from "@/components/List"
 
 export default {
-  components: { Form, List }
+  components: { Form, List },
+  mounted() {
+    setTimeout(() => {
+      console.log(this.$store.state)
+    }, 5000)
+  }
 }
 </script>
 

@@ -208,6 +208,11 @@
     reduce-css-calc "^2.1.7"
     tslib "~2.0.0"
 
+"@nativescript/debug-ios@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@nativescript/debug-ios/-/debug-ios-1.0.0.tgz#def1b16773207fe66a8dbb7d5e9e2680090b69dc"
+  integrity sha512-8DLhmdjb9lo0hLyI8xl9JzDFXy/UBMa1XbPYHpkJCcs0pR6OC6Zab+W73VOizHaS19yRZ3uyWatoLm/i0DJzCw==
+
 "@nativescript/hook@~2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@nativescript/hook/-/hook-2.0.0.tgz#dbc17777d08c657efc77e263dc1ba1896d9c77b5"

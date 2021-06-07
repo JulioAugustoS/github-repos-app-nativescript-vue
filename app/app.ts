@@ -1,6 +1,9 @@
 import Vue from "nativescript-vue";
 import store from "./store";
 import Users from "./containers/Users.vue";
+import { NativeScriptDebugIOS } from "@nativescript/debug-ios";
+
+NativeScriptDebugIOS.show();
 
 declare let __DEV__: boolean;
 
